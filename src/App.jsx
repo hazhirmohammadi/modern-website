@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styles from "./style.js";
 
 import {
@@ -13,6 +13,14 @@ import {
 } from './components'
 
 const App = () => {
+
+   useEffect(() => {
+      // fetch data
+      return () =>{
+         //
+      }
+   }, []);
+
    return (
        <div className="bg-primary w-full overflow-hidden">
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
